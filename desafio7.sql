@@ -1,6 +1,6 @@
 SELECT
     UCASE(CONCAT(E.FIRST_NAME, ' ', E.LAST_NAME)) AS `Nome completo`,
-    JH.START_DATE AS `Data de início do cargo`,
+    JH.START_DATE AS `Data de início`,
     E.SALARY AS `Salário`
 FROM
     hr.employees AS E
@@ -9,4 +9,4 @@ WHERE
     MONTH(JH.START_DATE) IN (1, 2, 3)
 ORDER BY
     `Nome completo`,
-    `Data de início do cargo`;
+    `Data de início`;
