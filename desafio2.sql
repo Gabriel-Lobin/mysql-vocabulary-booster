@@ -13,4 +13,3 @@ FROM
     hr.jobs
 ORDER BY
     `Cargo`;
-    
