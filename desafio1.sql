@@ -6,4 +6,6 @@ SELECT
         'não incluído'
     ) AS 'STATUS INCLUSÃO'
 FROM
-    hr.countries;
+    hr.countries
+ORDER BY
+    PAÍS;
